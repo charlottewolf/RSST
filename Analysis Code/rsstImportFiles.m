@@ -4,20 +4,20 @@
 % Buzsaki data also requires bload function from hc-2 crcns.com
 %% Input
 % Data Input
-    path = "/Users/Mingda/Desktop/RSST/Data/Buzsaki HC-2/";
-    file = "ec013.527.dat";
-    plotTitle = "Buzsaki subject 013, trial 527"; % title
+    path = "/Users/Mingda/Desktop/data/";
+    file = "080322_EPOCPLUS_164258_2022.08.03T16.11.50.07.00.csv";
+    plotTitle = "Emotiv Data"; % title
 
     
-    %currentFreq = 938; % used for .csv files
-    %columnToAnalyze = 2; % used for .csv files
+    currentFreq = 938; % used for .csv files
+    columnToAnalyze = 2; % used for .csv files
 
-    electrodeNum = 1; % used for .set files
+    %electrodeNum = 1; % used for .set files
 
-    columnToAnalyze = 4; % used for .dat files
-    currentFreq = 20000; % used for .dat files
+    %columnToAnalyze = 4; % used for .dat files
+    %currentFreq = 20000; % used for .dat files
 
-    datasetNum = 49; % used for .mat files
+    %datasetNum = 49; % used for .mat files
 
 
     % leave start and end as 0 to include the entire dataset
