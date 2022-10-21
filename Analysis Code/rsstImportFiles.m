@@ -24,6 +24,14 @@
     plotAll = 'Off'; % 'On' or 'Off'
     savePlotFile = append(path,file); % leave as '' to not save a file
 
+    %stores data and marker data vars for struct
+     data = readtable(filePath);
+     data = data(:,columnToAnalyze);
+   
+     markerData = readtable(filePath);
+     markerData = markerData(:,22); 
+
+
     % imports time data
     %filePath = append(path,file);
     %timeTable = readtable(filePath);
